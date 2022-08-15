@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/four-card-feature-section/static/css/main.40f7ad39.css",
+    "main.js": "/four-card-feature-section/static/js/main.26380f90.js",
+    "index.html": "/four-card-feature-section/index.html",
+    "main.40f7ad39.css.map": "/four-card-feature-section/static/css/main.40f7ad39.css.map",
+    "main.26380f90.js.map": "/four-card-feature-section/static/js/main.26380f90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40f7ad39.css",
+    "static/js/main.26380f90.js"
+  ]
+}

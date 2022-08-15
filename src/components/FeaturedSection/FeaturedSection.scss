@@ -18,9 +18,9 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: hsl(0, 0%, 92%);
     font-size: 15px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    // display: grid;
+    // justify-content: center;
+    // align-items: center;
 }
 p {
     color: var(--GrayishBlue);
@@ -118,7 +118,7 @@ $space_bw_cards: 30px;
 //
 @media only screen and (min-width: 1200px) {
     .featured_section {
-        margin: 70px auto;
+        margin: 70px;
     }
     .cards {
         flex-direction: row;

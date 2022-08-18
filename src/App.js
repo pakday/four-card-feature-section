@@ -5,11 +5,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<h1>Hi</h1>} />
-        <Route path="four-card-feature-section" element={<FeaturedSection />} />
+        <Route path='/four-card-feature-section' element={<FeaturedSection />} />
       </Routes>
     </>
   );
 }
+
+
+
 
 export default App;

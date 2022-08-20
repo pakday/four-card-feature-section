@@ -1,4 +1,14 @@
+
 footer {
     background: rgb(13, 109, 4);
-    height: 200px;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: auto;
+
+    p {
+        line-height: 4rem;
+        color: rgb(255, 255, 255);
+    }
 }

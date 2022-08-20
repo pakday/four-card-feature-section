@@ -3,12 +3,17 @@ nav {
 
     ul {
         list-style-type: none;
+        height: 52px;
         display: flex;
+        background: rgb(56, 139, 56);
+        flex-direction: row;
         gap: 20px;
         justify-content: center;
+        align-items: center;
 
         li {
             text-decoration: none;
+            margin-top: -7.5px;
 
             a {
                 color: rgb(255, 255, 255);

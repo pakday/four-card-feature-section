@@ -11,6 +11,10 @@ const menuLinks = [
         name: "Four Card Feature Section",
         path: "four-card-feature-section",
     },
+    {
+        name: "Single Price Grid",
+        path: "single-price-grid",
+    },
 ]
 
 const Menubar = () => {
@@ -28,6 +32,7 @@ const Links = () => {
                 <ul>
                     {menuLinks?.map((item, i) => (
                         <li>
+                            <Link to={item.path}>{item.name}</Link>
                             <Link to={item.path}>{item.name}</Link>
                         </li>
                     ))}

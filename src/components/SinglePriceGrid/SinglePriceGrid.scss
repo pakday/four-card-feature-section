@@ -1,0 +1,26 @@
+.container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+
+    div {
+        background: rgb(124, 96, 96);
+    }
+
+    &:first-child {
+        background: red;
+    }
+
+    .item1 {
+        grid-column: span 2;
+    }
+
+    .item2 {
+        
+    }
+
+    .item3 {
+        
+    }
+}

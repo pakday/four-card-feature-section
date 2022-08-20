@@ -4,7 +4,7 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <footer>
-            Footer
+            <p>copyriht &copy; all rights reserved.</p>
         </footer>
     )
 }
